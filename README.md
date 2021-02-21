@@ -1,6 +1,6 @@
 # [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs) with React
 <p>
-<img src="/public/sample.gif" width="500">
+<img src="/public/sample.gif" width="800">
 </p>  
 In the past, I did [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs) with Flask/Python/Javascript --- [https://github.com/nikgun1984/Madlibs-with-Flask](https://github.com/nikgun1984/Madlibs-with-Flask). This time i tried to use React for the same task.  
 
