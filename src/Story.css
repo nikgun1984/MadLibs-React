@@ -1,0 +1,12 @@
+.Story-hidden {
+    display: none;
+}
+
+.Story-shown {
+    display: block;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+}
