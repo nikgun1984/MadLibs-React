@@ -30,7 +30,6 @@ const MadlibsForm = ({ addStory, isShown }) => {
 		onSubmit: (values) => {
 			addStory(values);
 			formik.resetForm();
-			validate(values);
 		},
 	});
 	return (
@@ -58,7 +57,7 @@ const MadlibsForm = ({ addStory, isShown }) => {
 					onBlur={formik.handleBlur}
 					onChange={formik.handleChange}
 				/>
-				{formik.touched.firstName && formik.errors.noun2 ? (
+				{formik.touched.noun2 && formik.errors.noun2 ? (
 					<div className="MadlibsForm-error">{formik.errors.noun2}</div>
 				) : null}
 				<br />
@@ -71,7 +70,7 @@ const MadlibsForm = ({ addStory, isShown }) => {
 					onBlur={formik.handleBlur}
 					onChange={formik.handleChange}
 				/>
-				{formik.touched.firstName && formik.errors.adjective ? (
+				{formik.touched.adjective && formik.errors.adjective ? (
 					<div className="MadlibsForm-error">{formik.errors.adjective}</div>
 				) : null}
 				<br />
@@ -84,7 +83,7 @@ const MadlibsForm = ({ addStory, isShown }) => {
 					onBlur={formik.handleBlur}
 					onChange={formik.handleChange}
 				/>
-				{formik.touched.firstName && formik.errors.color ? (
+				{formik.touched.color && formik.errors.color ? (
 					<div className="MadlibsForm-error">{formik.errors.color}</div>
 				) : null}
 				<br />
